@@ -1,0 +1,28 @@
+/* .card a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} */
+img {
+  width: 100%;
+  max-width: 400px;
+  object-fit: cover;
+  aspect-ratio: 16/9;
+}
+a {
+  text-decoration: none;
+}
+a p {
+  font-size: large;
+  font-weight: bold;
+  color: black;
+  max-width:90%;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+.card {
+  width: 100%;
+}

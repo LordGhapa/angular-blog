@@ -1,0 +1,12 @@
+h1 {
+  margin: 0 auto;
+  text-align: center;
+}
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+	color: #000;
+}
